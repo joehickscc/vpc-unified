@@ -43,7 +43,7 @@ variables:
         description: How many private and public subnets should be created
         type: number
         default: 2
-    PRIVATE_ROUTE_NUM_TABLES
+    PRIVATE_ROUTE_NUM_TABLES:
         required: true
         description: How many private route tables to create
         type: number
