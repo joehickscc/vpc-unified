@@ -20,7 +20,6 @@ variables:
         required: true
         description: the cloudcoreo name of the public vpc subnets
         default: test-public-subnet
-
     PRIVATE_ROUTE_NAME:
         required: true
         description: the name to give to the private route
@@ -29,7 +28,6 @@ variables:
         required: true
         description: the cloudcoreo name of the private vpc subnets
         default: test-private-subnet
-
     SUFFIX:
         required: false
         description: when used will use the value to suffix the names of all converged objects
@@ -44,7 +42,6 @@ variables:
         description: How many subnets (private and public) to create
         type: number
         default: 2
-
     PRIVATE_ROUTE_NUM_TABLES
         required: true
         description: How many private route tables to create
