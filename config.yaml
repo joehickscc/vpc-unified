@@ -36,8 +36,6 @@ variables:
         required: false
         description: tags to apply to the vpc
         type: array
-        default:
-            - 
     SUBNET_NUM_ZONES:
         required: true
         description: How many private and public subnets should be created
